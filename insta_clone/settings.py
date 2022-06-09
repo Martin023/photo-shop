@@ -41,7 +41,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'instagram',
-    
+    'bootstrap4',
     'cloudinary',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -145,7 +145,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Africa/Nairobi'
+
 
 USE_I18N = True
 
