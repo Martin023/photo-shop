@@ -81,16 +81,16 @@ class Comments(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comments')
     created = models.DateTimeField(auto_now_add=True, null=True)
 
-   
+    def __str__(self):
+        return f'{self.comment} Image'
     
-    @classmethod
-    def filter_comments_by_post_id(cls, id):
-        comments = Comments.objects.filter(post__id=id)
-        return comments
+    def save_comment(self):
+        self.save()
     
-
-    class Meta:
-        ordering = ["-pk"]
+    def delete_comment(self):
+        self.delete()
+    
+    
 
 
 class Follow(models.Model):
