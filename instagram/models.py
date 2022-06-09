@@ -90,12 +90,14 @@ class Comments(models.Model):
     def delete_comment(self):
         self.delete()
     
+    @classmethod
+    def filter_comments_by_post_id(cls, id):
+        comments = Comments.objects.filter(post__id=id)
+        return comments
     
 
+    class Meta:
+        ordering = ["-pk"]
 
-class Follow(models.Model):
-    follower = models.ForeignKey(User, on_delete=models.CASCADE, related_name='following')
-    followed = models.ForeignKey(User, on_delete=models.CASCADE, related_name='followers')
 
-    def __str__(self):
-        return f'{self.follower} Follow'
+
