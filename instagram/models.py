@@ -59,11 +59,10 @@ class Image(models.Model):
     def delete_post(self):
         self.delete()
 
+    def total_likes(self):
+        return self.likes.count()
     
-    @classmethod
-    def get_profile_posts(cls,profile):
-        posts = Image.objects.filter(profile__pk= profile)
-        return posts
+    
     @classmethod
     def update_post_caption(cls,id,caption):
         update =cls.objects.filter(id=id).update(caption=caption)
