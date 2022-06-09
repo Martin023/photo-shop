@@ -53,10 +53,12 @@ class Image(models.Model):
     class Meta:
         ordering = ["-pk"]
 
-    
+    def save_post(self):
+        self.save()
 
-    def total_likes(self):
-        return self.likes.count()
+    def delete_post(self):
+        self.delete()
+
     
     @classmethod
     def get_profile_posts(cls,profile):
