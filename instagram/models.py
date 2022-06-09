@@ -7,6 +7,33 @@ from django.dispatch import receiver
 
 
 
+class Profile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE,primary_key=True)
+    profile_picture = CloudinaryField('pictures/',default='http://res.cloudinary.com/dim8pysls/image/upload/v1639001486/x3mgnqmbi73lten4ewzv.png')
+    bio = models.TextField(max_length=500, default="My Bio", blank=True)
+    name = models.CharField(max_length=250, blank=True)
+  
+
+    def __str__(self):
+        return f'{self.user.username} Profile'
+    
+    @receiver(post_save, sender=User)
+    def create_user_profile(sender, instance, created, **kwargs):
+        if created:
+            Profile.objects.create(user=instance)
+
+
+    def delete_profile(self):
+        self.delete()
+    
+    @classmethod
+    def filter_profile_by_id(cls, id):
+        profile = Profile.objects.filter(user__id = id).first()
+        return profile
+
+    @classmethod
+    def search_profile(cls, name):
+        return cls.objects.filter(user__username__icontains=name).all()
 
 
 class Image(models.Model):
