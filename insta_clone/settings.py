@@ -41,7 +41,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'instagram',
-    'bootstrap4',
+    
     'cloudinary',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -179,3 +179,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = '/'
 
 
+cloudinary.config( 
+  cloud_name = "dim8pysls", 
+  api_key = "111589689929649", 
+  api_secret = "fICQAMAqo4kM-6a84vTPlUXtmtc",
+)
