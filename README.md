@@ -53,39 +53,20 @@ https://www.postgresql.org/docs/
 Finnaly set-up your envirnment variables
 * Create a .env file in the main app folder.
   using terminal : touch .env 
-* Replace variables with our own values for example,
-  BD_USER='your database name'
+* Replace variables with our own values for example
+  BD_USER='your database name'.
   TIP : Ensure no spacing between the = assignment symbol.
 
 * Run your application:
   python3 manage.py runserver
   
-A demo result of the above:
-  
+A demo result of the above.
+![Screenshot from 2022-06-10 05-19-10](https://user-images.githubusercontent.com/36125591/172978627-2b4f9b27-a5d2-41b4-b2be-6064cdfd3708.png
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+kindly checkout this decumentation for a comprehensive guide to deployment
 
 ## Built With
 
