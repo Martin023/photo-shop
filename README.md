@@ -80,7 +80,6 @@ kindly checkout this decumentation for a comprehensive guide to deployment.
 ## Contributing
   
 
-
 ## Authors
 
 [Martin](https://github.com/martin023)
@@ -90,9 +89,9 @@ See also the list of [contributors](https://github.com/your/project/contributors
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+2022
 ## Acknowledgments
 
-* Dev Elv (https://github.com/) And anyone whose code might have been used.
-* 
+* [Dev Elv] (https://github.com/) Who had great insight in resolving the backend working of the application.
+
 
