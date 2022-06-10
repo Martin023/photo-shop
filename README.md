@@ -63,7 +63,7 @@ TIP : Ensure no spacing between the = assignment symbol.
 python3 manage.py runserver
   
 A demo result of the above.
-![Screenshot from 2022-06-10 05-19-10](https://user-images.githubusercontent.com/36125591/172978627-2b4f9b27-a5d2-41b4-b2be-6064cdfd3708.png
+![Screenshot from 2022-06-10 05-19-10](https://user-images.githubusercontent.com/36125591/172978627-2b4f9b27-a5d2-41b4-b2be-6064cdfd3708.png)
 
 
 ## Deployment
@@ -73,21 +73,17 @@ kindly checkout this decumentation for a comprehensive guide to deployment.
 
 ## Built With
 
-* [Django](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [pip](https://maven.apache.org/) - pip package installer
-* [python](https://rometools.github.io/rome/) - python
+* [Django](https://docs.djangoproject.com/en/4.0/intro/) - The web framework used
+* [pip](https://pypi.org/project/pip/) - pip package installer
+* [python]((https://www.python.org/downloads/release/python-390/)) - python 3.9
 
 ## Contributing
+  
 
-Open a new 
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+[Martin](https://github.com/martin023)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -97,7 +93,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Dev Elv (https://github.com/) And anyone whose code might have been used.
+* 
 
