@@ -43,10 +43,25 @@ code .
 Install the requirements
 pip install -r requirements.txt
 
+Create your database
+1. Run psql
+2. CREATE DATABASE <your database name of choice> <preferred username> <preffered password>
 
+Read more about postgress databases 
+https://www.postgresql.org/docs/
+  
+Finnaly set-up your envirnment variables
+* Create a .env file in the main app folder.
+  using terminal : touch .env 
+* Replace variables with our own values for example,
+  BD_USER='your database name'
+  TIP : Ensure no spacing between the = assignment symbol.
 
-
-End with an example of getting some data out of the system or using it for a little demo
+* Run your application:
+  python3 manage.py runserver
+  
+A demo result of the above:
+  
 
 ## Running the tests
 
