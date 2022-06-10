@@ -92,6 +92,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 2022
 ## Acknowledgments
 
-* [Dev Elv] (https://github.com/) Who had great insight in resolving the backend working of the application.
+* [Dev Elv](https://github.com/) Who had great insight in resolving the backend working of the application.
 
 
