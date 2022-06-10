@@ -54,13 +54,13 @@ https://www.postgresql.org/docs/
   
 Finnaly set-up your envirnment variables
 * Create a .env file in the main app folder.
-  using terminal : touch .env 
-* Replace variables with our own values for example
-  BD_USER='your database name'.
-  TIP : Ensure no spacing between the = assignment symbol.
+using terminal : touch .env 
+* Replace variables with our own values for example.
+BD_USER='your database name'.
+TIP : Ensure no spacing between the = assignment symbol.
 
 * Run your application:
-  python3 manage.py runserver
+python3 manage.py runserver
   
 A demo result of the above.
 ![Screenshot from 2022-06-10 05-19-10](https://user-images.githubusercontent.com/36125591/172978627-2b4f9b27-a5d2-41b4-b2be-6064cdfd3708.png
@@ -68,17 +68,18 @@ A demo result of the above.
 
 ## Deployment
 
-kindly checkout this decumentation for a comprehensive guide to deployment
+kindly checkout this decumentation for a comprehensive guide to deployment.
+[documentation](https://gist.github.com/Martin023/7480301120aef8b7546130ed3ce6db69)
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Django](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [pip](https://maven.apache.org/) - pip package installer
+* [python](https://rometools.github.io/rome/) - python
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Open a new 
 
 ## Versioning
 
