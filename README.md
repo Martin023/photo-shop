@@ -1,6 +1,7 @@
 # tesagram
 A minimalistic instagram clone 
-## Project Title
+
+## About tesagram
 This is an instagram clone that where users can:
 * Upload photots
 * Follow other users
@@ -11,12 +12,14 @@ This is an instagram clone that where users can:
 
 ## Getting Started
 
-To get started on running tesagram on your local machine:
-You may fork this repository then clone the application or directly clone from this repository
- git clone 
- Install requirements : pip install -r requirements.txt
- You can create your own database and replace environment variables with your own values
- for example database name, and password.
+To get started on running tesagram on your local machine :
+You may fork this repository then clone the application or directly clone from this repository:
+git clone 
+
+Install requirements : pip install -r requirements.txt
+
+You can create your own database and replace environment variables with your own values
+for example database name, and password.
 
 ### Prerequisites
 The pre-requisites include having python installation (latest version is a plus) ,
@@ -24,22 +27,24 @@ A python code editor eg pycharm or visual-studio, postgresql server optional if 
 
 I have attached links to these softwares if you do not have any of the above here:
 
+* https://www.python.org/downloads/ python download
+* https://visualstudio.microsoft.com/downloads/ Visual-studio
+* https://www.jetbrains.com/pycharm/download/ Py-charm code editor
+* https://www.postgresql.org/download/ postgresql database and server
 
 ### Installing
+After a successful clone and installation of the pre requisites :
+Navigate to the parent folder of the application :
+cd <location folder on your machine>/tesagram
 
-A step by step series of examples that tell you how to get a development env running
+Open with visual-studio 
+code .
 
-Say what the step will be
+Install the requirements
+pip install -r requirements.txt
 
-```
-Give the example
-```
 
-And repeat
 
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
