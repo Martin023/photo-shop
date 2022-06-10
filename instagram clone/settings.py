@@ -40,7 +40,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'instagram',
+    'tesagram',
     'bootstrap4',
     'cloudinary',
     'django.contrib.admin',
